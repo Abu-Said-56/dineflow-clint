@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Cheesecake",
+    "image": "https://i.ibb.co.com/R480SYv/homemade-cheesecake-with-fresh-786587-1189.jpg",
+    "category": "Dessert",
+    "price": 6.99,
+    "quantity": 0,
+    "madeBy": "Chef Marie",
+    "foodOrigin": "USA",
+    "description": "Cheesecake is a luscious, creamy dessert that features a rich layer of cream cheese filling atop a crumbly graham cracker crust. Originating from ancient Greece but popularized in the United States, this classic dessert is often topped with a variety of delicious additions, including fresh fruits, chocolate drizzle, or whipped cream. Its smooth texture and indulgent taste make it the perfect choice for any occasion."
+  },
+  {
+    "name": "Caesar Salad",
+    "image": "https://i.ibb.co.com/7XJbQDr/salad-with-meat-eastern-food-european-food-141438-2756.jpg",
+    "category": "Salad",
+    "price": 9.99,
+    "quantity": 0,
+    "madeBy": "Chef Antonio",
+    "foodOrigin": "Italy",
+    "description": "Caesar Salad is a timeless Italian-inspired dish made with crisp romaine lettuce, crunchy croutons, and a savory Caesar dressing. This salad is garnished with a generous sprinkle of parmesan cheese and sometimes topped with grilled chicken or shrimp. Known for its bold and tangy flavors, it is a refreshing starter or a light main course perfect for any meal."
+  },
+  {
+    "name": "Margherita Pizza",
+    "image": "https://i.ibb.co.com/682YBT2/fresh-homemade-pizza-with-tomatoes-salami-chilly-pepper-cheese-wooden-table-menu-photo-201836-501.jpg",
+    "category": "Pizza",
+    "price": 12.99,
+    "quantity": 0,
+    "madeBy": "Chef Giovanni",
+    "foodOrigin": "Italy",
+    "description": "Margherita Pizza is a celebrated Italian classic, known for its simplicity and authentic flavors. This pizza features a thin, crispy crust topped with fresh tomato sauce, creamy mozzarella cheese, and fragrant basil leaves. A drizzle of olive oil and a sprinkle of salt enhance its natural taste, making it a favorite for pizza lovers worldwide."
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "image": "https://i.ibb.co.com/wh4qhnH/italian-pasta-spaghetti-with-meatballs-parmesan-cheese-black-plate-dark-rustic-wood-background-dinne.jpg",
+    "category": "Pasta",
+    "price": 14.99,
+    "quantity": 0,
+    "madeBy": "Chef Luca",
+    "foodOrigin": "Italy",
+    "description": "Spaghetti Bolognese is a hearty Italian pasta dish that combines tender spaghetti noodles with a robust and flavorful meat sauce. Made with ground beef, tomatoes, onions, and a blend of herbs and spices, this dish is simmered to perfection for a rich, savory taste. Often topped with freshly grated parmesan cheese, it’s a comforting meal that satisfies every appetite."
+  },
+  {
+    "name": "Veggie Burger",
+    "image": "https://i.ibb.co.com/LCt8vyF/close-up-vegetarian-burger-cutting-board-23-2148784533.jpg",
+    "category": "Burger",
+    "price": 10.99,
+    "quantity": 0,
+    "madeBy": "Chef Emily",
+    "foodOrigin": "USA",
+    "description": "The Veggie Burger is a nutritious and delicious alternative to traditional meat burgers. Packed with wholesome ingredients like black beans, quinoa, or chickpeas, this burger is grilled to perfection and served on a toasted bun with fresh lettuce, juicy tomatoes, and a tangy sauce. It's a satisfying choice for vegetarians and anyone seeking a healthier meal option."
+  },
+  {
+    "name": "Chicken Tikka",
+    "image": "https://i.ibb.co.com/yfwHdy1/chicken-skewers-with-slices-sweet-peppers-dill-tasty-food-weekend-meal-2829-7043.jpg",
+    "category": "Indian",
+    "price": 13.99,
+    "quantity": 0,
+    "madeBy": "Chef Ayesha",
+    "foodOrigin": "India",
+    "description": "Chicken Tikka is a popular Indian dish featuring marinated chicken pieces that are grilled or baked to perfection. The marinade is made with yogurt and a blend of spices, including cumin, coriander, and turmeric, giving the chicken a bold and aromatic flavor. Served with mint chutney or as part of a larger meal, this dish is a true culinary delight."
+  },
+  {
+    "name": "Sushi Platter",
+    "image": "https://i.ibb.co.com/gynNvdm/1000-F-1036557762-0vt-Botks-Nh3u6-NS1-CEHe-TIRMt-Ghj-Ec2i.jpg",
+    "category": "Japanese",
+    "price": 18.99,
+    "quantity": 0,
+    "madeBy": "Chef Sato",
+    "foodOrigin": "Japan",
+    "description": "The Sushi Platter is an exquisite assortment of handcrafted sushi rolls and nigiri. Featuring fresh seafood, vinegared rice, and a variety of toppings and fillings, each piece is a work of art. Complemented with soy sauce, wasabi, and pickled ginger, this platter is a must-try for sushi enthusiasts."
+  },
+  {
+    "name": "Tacos Al Pastor",
+    "image": "https://i.ibb.co.com/xCz5Gyy/diet-healthy-tacos-with-pork-avocado-wooden-background-selective-focusgenerative-ai-1258-153033.jpg",
+    "category": "Mexican",
+    "price": 8.99,
+    "quantity": 0,
+    "madeBy": "Chef Carlos",
+    "foodOrigin": "Mexico",
+    "description": "Tacos Al Pastor are a beloved Mexican street food featuring marinated pork cooked on a spit, much like shawarma. The pork is thinly sliced and served on warm corn tortillas, topped with pineapple, cilantro, and onion. This sweet and savory combination makes them a flavorful and satisfying meal."
+  },
+  {
+    "name": "Grilled Chicken Sandwich",
+    "image": "https://i.ibb.co.com/zV6KrKY/big-sandwich-with-chicken-kebab-lettuce-2829-16728.jpg",
+    "category": "Sandwich",
+    "price": 11.99,
+    "quantity": 0,
+    "madeBy": "Chef Sarah",
+    "foodOrigin": "USA",
+    "description": "The Grilled Chicken Sandwich is a delicious and wholesome option for a quick meal. It features tender, juicy chicken breasts grilled to perfection, layered with fresh lettuce, tomatoes, and a creamy mayo or mustard sauce. Served on a toasted bun, this sandwich is both hearty and flavorful."
+  }
+]
