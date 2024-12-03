@@ -5,10 +5,10 @@ import { AuthContext } from "../../Providers/AuthProvider";
 const FoodPurchase = () => {
     const allfood = useLoaderData()
     const { user } = useContext(AuthContext);
-    const { email, displayName } = user;
+    // const { email, displayName } = user;
 
     const { buyername, price, quantity, foodname }  = allfood;
-    console.log(buyername, email, displayName, price, quantity, foodname, );
+    console.log( buyername, price, quantity, foodname );
     
     const handlePurchase = event  => {
         event.preventDefault();

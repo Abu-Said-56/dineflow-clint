@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState, } from "react";
 import { createUserWithEmailAndPassword, getAuth, GithubAuthProvider, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, } from "firebase/auth";
 import app from "../firebase/firebase.config"
+import axios from "axios";
 
 const auth = getAuth(app);
 
@@ -48,9 +49,28 @@ const AuthProvider = ({ children }) => {
 
 
     useEffect(() => {
-        const unSubscribe = onAuthStateChanged(auth, currenetUser => {
-            setUser(currenetUser);
-            console.log("User",currenetUser)
+        const unSubscribe = onAuthStateChanged(auth, currentUser => {
+            setUser(currentUser);
+            console.log("User  ",currentUser)
+            
+            if(currentUser){
+                // const userInfo = { email: currentUser.email };  
+                axios.post("https://dineflow-server.vercel.app/jwt",{ email: currentUser?.email } )
+                
+                .then(res=>{
+                    if(res?.data?.token){
+                        
+                        localStorage.setItem("access-token", res?.data?.token)
+                        setLoading(false);
+                    }
+                }) 
+            }else {
+                localStorage.removeItem('access-token')
+                setLoading(false)
+            }
+            
+            
+            
             setLoading(false);
         })
         return () => {

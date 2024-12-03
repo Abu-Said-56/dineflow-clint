@@ -9,6 +9,10 @@ import Register from "../Components/Register/Register";
 import ViewDetails from "../Components/Details/ViewDetails";
 import ErrorComponents from "../Components/ErrorComponent/ErrorComponents";
 import FoodPurchase from "../Components/FoodPurchase/FoodPurchase";
+import AddedFoodItems from "../Components/AddedFoodItems/AddedFoodItems";
+import AddFoodItems from "../Components/AddFoodItems/AddFoodItems";
+import OrderdFood from "../Components/OrderdFood/OrderdFood";
+import UpdateFoodItems from "../Components/UpdateFoodItems/UpdateFoodItems";
 
 export const router = createBrowserRouter([
     {
@@ -17,7 +21,7 @@ export const router = createBrowserRouter([
       errorElement: <ErrorComponents></ErrorComponents>,
       children: [
         {
-            path:"/home",
+            path:"/",
             element: <Home></Home>
         },
         {
@@ -43,15 +47,30 @@ export const router = createBrowserRouter([
         {
             path:"/details/:id",
             element: <ViewDetails></ViewDetails>,
-            loader: ({ params }) => fetch(`http://localhost:5001/all-foods/${params.id}`)    
+            loader: ({ params }) => fetch(`https://dineflow-server.vercel.app/all-foods/${params.id}`)    
         },
         {
             path:"/purchase/:id",
             element: <FoodPurchase></FoodPurchase>,
-            loader: ({ params }) => fetch(`http://localhost:5001/all-foods/${params.id}`)  
+            loader: ({ params }) => fetch(`https://dineflow-server.vercel.app/all-foods/${params.id}`)  
         },
         {
-
+            path:"/addedfooditem",
+            element:<AddedFoodItems></AddedFoodItems>,
+            loader: async() => await fetch('https://dineflow-server.vercel.app/foods')
+        },
+        {
+            path:"/addfooditem",
+            element:<AddFoodItems></AddFoodItems>
+        },
+        {
+            path:"/orderedfood",
+            element:<OrderdFood></OrderdFood>
+        },
+        {
+            path:'/updatefood/:id',
+            element:<UpdateFoodItems></UpdateFoodItems>,
+            loader: async({params}) => await fetch(`https://dineflow-server.vercel.app/foods/${params.id}`)
         }
 
       ]

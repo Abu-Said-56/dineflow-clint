@@ -5,7 +5,7 @@ const AllFoods = () => {
 
     const [allfoods, setAllfood] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5001/all-foods')
+        fetch('https://dineflow-server.vercel.app/all-foods')
             .then(res => res.json())
             .then(data => setAllfood(data))
     }, [])
